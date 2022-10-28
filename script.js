@@ -12,7 +12,7 @@ const textArr = [
     },
     {
         message:"/github",
-        response:"github.com/tanachuns"
+        response:`<a target="_blank" href="https://www.github.com/tanachuns">My Github.</a>`
     },
     {
         message:"/nickname",
@@ -21,15 +21,16 @@ const textArr = [
     
     {
         message:"/clear",
-        response:"just refresh this page!"
+        response:"just refresh this page! this message wont show."
     },
     {
         message:"/gradient-anime",
-        response:"I used gradient-animator.com to generate cool background."
+        response:`I used <a target="_blank" href="https://www.gradient-animator.com">gradient-animator.com</a> to generate cool background.`
+        
     },
     {
         message:"/icon",
-        response:"https://www.flaticon.com/free-icon/terminal_7544562"
+    response:`I used icon from <a target="_blank" href="https://www.flaticon.com/free-icon/terminal_7544562">flaticon.</a> `
     },
     {
         message:"/test",
@@ -45,6 +46,9 @@ function textBack(reciveMessage){
         if(reciveMessage.toLowerCase()==="/helpmepapa"){
             response = response+" "+textArr[i].message+" ";
         }
+        else if(reciveMessage.toLowerCase()==="/clear"){
+            location.reload();
+        }
         else if(reciveMessage.toLowerCase()===textArr[i].message){
             response = textArr[i].response;
         }
@@ -57,12 +61,13 @@ function sendMessage(e){
         const reciveMessage = document.createElement('p');
         const message = document.createElement('p');
         const inp = input.value;
-        reciveMessage.innerText = "> "+inp;
-        message.innerText = textBack(inp);
+        reciveMessage.innerHTML = "> "+inp;
+        message.innerHTML = textBack(inp);
         chatbox.appendChild(reciveMessage);
         chatbox.appendChild(message);
         input.value ="";
-      }
+    }
+    
 }
 
 

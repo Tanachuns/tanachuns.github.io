@@ -45,13 +45,19 @@ body{
   display: flex;
   flex-direction: column-reverse;
   overflow: scroll;
+  padding: 1em;
 }
 
 .terminal-textbox{
     all:unset;
     width: 100%;
+    display: flex;
 }
 
 .terminal-header{
     align-self:end;
 }
+a{
+    color: lightgreen;
+}
+
