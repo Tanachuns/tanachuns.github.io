@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+
+}
+
+body{
+    background: linear-gradient(270deg, #007b4b, #8b8e06);
+    background-size: 400% 400%;
+
+    -webkit-animation: g-animate 10s ease infinite;
+    -moz-animation: g-animate 10s ease infinite;
+    animation: g-animate 10s ease infinite;
+}
+
+@-webkit-keyframes g-animate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes g-animate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes g-animate {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.terminal{
+  padding: 1em;
+  color :lightgreen;
+  background:black;
+  width:50%;
+  height:500px;
+  box-shadow: 0.5rem .5rem 0 lightgreen;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: scroll;
+}
+
+.terminal-textbox{
+    all:unset;
+    width: 100%;
+}
+
+.terminal-header{
+    align-self:end;
+}
