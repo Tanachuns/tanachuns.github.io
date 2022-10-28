@@ -28,6 +28,10 @@ const textArr = [
         response:"I used gradient-animator.com to generate cool background."
     },
     {
+        message:"/icon",
+        response:"https://www.flaticon.com/free-icon/terminal_7544562"
+    },
+    {
         message:"/test",
         response:"this command is for new line test and character limit of the box ill try to add more char to this until it breake to nw line thanks. It works!"
     }
