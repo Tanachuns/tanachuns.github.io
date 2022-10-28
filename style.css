@@ -45,8 +45,9 @@ body{
   display: flex;
   flex-direction: column-reverse;
   overflow: scroll;
-  padding: 1em;
 }
+
+
 
 .terminal-textbox{
     all:unset;
@@ -54,10 +55,24 @@ body{
     display: flex;
 }
 
-.terminal-header{
-    align-self:end;
+
+.terminal-input *{
+    display: inline-block;
 }
 a{
     color: lightgreen;
 }
 
+@media only screen and (max-width:700px) {
+    html,body{
+        width: 100%;
+        height:100%;
+        padding: 0;
+        margin: 0;
+    }
+    .terminal{
+        width: 100%;
+        height:100%;
+        box-shadow: none;
+    }
+}
