@@ -11,7 +11,7 @@ body{
 }
 
 body{
-    background: linear-gradient(270deg, #007b4b, #8b8e06);
+    background: linear-gradient(270deg, #007b4b, #e3ff00);
     background-size: 400% 400%;
 
     -webkit-animation: g-animate 10s ease infinite;
