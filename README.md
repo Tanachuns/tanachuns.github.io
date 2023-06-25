@@ -1,42 +1,62 @@
 # MY Page
 ## todo-list
 - [ ]  Introduction/About Me:
-    
-    -   Prominent heading/banner
-    -   Professional profile photo
-    -   Concise summary using paragraphs or bullet points
+   - Briefly introduce yourself and your background as a junior full stack developer.
+   - Highlight your key skills, strengths, and career goals.
+   - Mention any unique qualities or experiences that set you apart.
 - [ ]  Education:
-    
     -   Structured layout with institution details
     -   Icons or logos of the institutions attended
+     
+  - List the educational institutions you attended, including the name and location.
+   - Specify the degree or certification earned, along with the field of study.
+   - Include relevant dates of enrollment and graduation.
+   - Highlight any academic achievements or notable projects. 
 - [ ]  Skills:
-    
+       - Provide a comprehensive list of your technical skills as a junior full stack developer.
+   - Include both front-end and back-end technologies you are proficient in.
+   - Consider categorizing skills into sections like programming languages, 
     -   Visual representations such as progress bars or skill tags
     -   Categorization into front-end and back-end sections
     -   Different colors or icons for differentiation
 - [ ]  Experience:
-    
+      - List your professional experiences, such as internships, freelance work, or part-time positions.
+   - Include the company or organization name, your job title, and employment dates.
+   - Provide a brief description of your responsibilities and accomplishments in each role.
+   - Highlight specific projects you worked on and the technologies utilized.
     -   Timeline or grid format showcasing work experience
     -   Icons or logos of the companies worked for
 - [ ]  Projects:
-    
+     - Showcase your projects to demonstrate your practical experience and abilities.
+   - Include the project name, description, and your role in its development.
+   - Provide links to live demos or GitHub repositories for visitors to explore.
+   - Add screenshots or images to visually represent each project.
+
     -   Project names, descriptions, and screenshots/thumbnails
     -   Hover effect for additional details or live demo links
 - [ ]  Resume:
-    
+     - Create a downloadable PDF version of your complete resume.
+   - Include your work history, educational background, skills, and relevant achievements.
+   - Ensure the resume is well-organized and follows a professional format.
     -   Prominent download button or icon
     -   Visible and accessible download link in PDF format
 - [ ] Contact Information:
-    
+       - Display your full name, email address, and phone number.
+   - Include links to your professional social media profiles like LinkedIn or GitHub.
+   - Optionally, provide a contact form for visitors to reach out to you directly from your website.
     -   Placement in header or footer
     -   Icons for email, phone, and social media profiles
     -   Optional contact form for direct communication
 - [ ]  Testimonials/Recommendations:
-    
+      - Include positive testimonials or recommendations from clients, colleagues, or professors.
+   - Highlight quotes that showcase your skills, work ethic, and professionalism.
+   - Mention the name, position, and affiliation of the person providing the testimonial.
     -   Quote boxes or cards with testimonial text
     -   Name, position, or affiliation of the person providing the recommendation
-- [ ]  Blog/Articles:
-    
+- [ ]  Blog/Articles: *Optional
+       - If you have a blog section, include a list of your published articles or blog posts.
+   - Provide titles, brief summaries, and publication dates for each article.
+   - Consider categorizing articles based on topics or tags.
     -   Visually appealing grid or list format
     -   Article titles, featured images, and brief summaries
     -   Eye-catching images or icons for different blog categories
