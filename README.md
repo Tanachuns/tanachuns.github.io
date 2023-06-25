@@ -34,7 +34,7 @@
 
     -   Project names, descriptions, and screenshots/thumbnails
     -   Hover effect for additional details or live demo links
-- [ ]  Resume:
+- [x]  Resume:
      - Create a downloadable PDF version of your complete resume.
    - Include your work history, educational background, skills, and relevant achievements.
    - Ensure the resume is well-organized and follows a professional format.
