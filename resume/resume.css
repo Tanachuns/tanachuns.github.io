@@ -48,9 +48,10 @@ body {
     padding-left: 20px;
   }
 
-  button{
-    margin: auto;
+  .btn{
+    margin: 1em auto;
   }
+  
 
   @media print {
     body {
