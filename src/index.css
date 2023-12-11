@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.root,
+#root,
+#docs-root {
+  --c-sea: #9bb8cd;
+  --c-beige: #fff7d4;
+  --c-mango: #eec759;
+  --c-sage: #b1c381;
+}
+
+nav a:hover {
+  color: var(--c-sage);
+}
+
+#door-wheel {
+  background-image: conic-gradient(
+    var(--c-beige) 25%,
+    var(--c-sea) 25% 50%,
+    var(--c-mango) 50% 75%,
+    var(--c-sage) 75% 100%
+  );
+}
+
+.rtbeige {
+  transform: rotate(315deg);
+  transition: transform 1s linear;
+}
+.rtsea {
+  transform: rotate(225deg);
+  transition: transform 1s linear;
+}
+.rtmango {
+  transform: rotate(135deg);
+  transition: transform 1s linear;
+}
+.rtsage {
+  transform: rotate(45deg);
+
+  transition: transform 1s linear;
+}
