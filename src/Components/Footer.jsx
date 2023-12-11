@@ -7,12 +7,12 @@ export default function Footer() {
     axios
       .get('https://api.github.com/repos/tanachuns/tanachuns.github.io/commits')
       .then((res) => {
-        setCommitDate(res.data[0].commit.committer.date.split('T')[0])
+        setCommitDate(new Date(res.data[0].commit.committer.date).toString())
       })
   }, [])
   return (
     <footer className="flex justify-between items-center bg-sea text-black p-3">
-      <p className="text-xs">Last Updated: {commitDate}</p>
+      <p className="text-sm">Last Updated: {commitDate}</p>
     </footer>
   )
 }
