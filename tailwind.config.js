@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        sea: 'var(--c-sea)',
-        beige: 'var(--c-beige)',
+        sky: 'var(--c-sky)',
+        sand: 'var(--c-sand)',
         mango: 'var(--c-mango)',
         sage: 'var(--c-sage)',
       },

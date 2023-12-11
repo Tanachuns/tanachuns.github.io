@@ -6,8 +6,8 @@
 .root,
 #root,
 #docs-root {
-  --c-sea: #9bb8cd;
-  --c-beige: #fff7d4;
+  --c-sky: #9bb8cd;
+  --c-sand: #fff7d4;
   --c-mango: #eec759;
   --c-sage: #b1c381;
   font-family: 'Sarabun', sans-serif;
@@ -19,18 +19,18 @@ nav a:hover {
 
 #door-wheel {
   background-image: conic-gradient(
-    var(--c-beige) 25%,
-    var(--c-sea) 25% 50%,
+    var(--c-sand) 25%,
+    var(--c-sky) 25% 50%,
     var(--c-mango) 50% 75%,
     var(--c-sage) 75% 100%
   );
 }
 
-.rtbeige {
+.rtsand {
   transform: rotate(315deg);
   transition: transform 0.5s linear;
 }
-.rtsea {
+.rtsky {
   transform: rotate(225deg);
   transition: transform 0.5s linear;
 }

@@ -6,13 +6,13 @@ export default function Header() {
   const banngerStyles = [
     {
       element: 'Test1',
-      bg: 'sea',
-      rad: 'rtsea',
+      bg: 'sky',
+      rad: 'rtsky',
     },
     {
       element: 'Test2',
-      bg: 'beige',
-      rad: 'rtbeige',
+      bg: 'sand',
+      rad: 'rtsand',
     },
     {
       element: 'Test3',

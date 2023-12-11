@@ -11,7 +11,7 @@ export default function Footer() {
       })
   }, [])
   return (
-    <footer className="flex justify-between items-center bg-sea text-black p-3">
+    <footer className="flex justify-between items-center bg-sky text-black p-3">
       <p className="text-sm">Last Updated: {commitDate}</p>
     </footer>
   )
