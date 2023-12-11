@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
 
 .root,
 #root,
@@ -9,6 +10,7 @@
   --c-beige: #fff7d4;
   --c-mango: #eec759;
   --c-sage: #b1c381;
+  font-family: 'Sarabun', sans-serif;
 }
 
 nav a:hover {

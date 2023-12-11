@@ -19,19 +19,19 @@ export default function NavBar() {
       </ul>
       <div className="flex">
         <div
-          className="mx-1 w-6 h-6 bg-sea border-white border-2 hover:border-gray-400"
+          className="mx-1 w-6 h-6 bg-sea border-white border-2 hover:border-black"
           title="sea: #9bb8cd"
         ></div>
         <div
-          className="mx-1 w-6 h-6 bg-sage border-white border-2"
+          className="mx-1 w-6 h-6 bg-sage border-white border-2 hover:border-black"
           title="sage: #b1c381"
         ></div>
         <div
-          className="mx-1 w-6 h-6 bg-mango border-white border-2"
+          className="mx-1 w-6 h-6 bg-mango border-white border-2 hover:border-black"
           title="mango: #eec759"
         ></div>
         <div
-          className="mx-1 w-6 h-6 bg-beige border-white border-2"
+          className="mx-1 w-6 h-6 bg-beige border-white border-2 hover:border-black"
           title="beige: #fff7d4"
         ></div>
         <br />

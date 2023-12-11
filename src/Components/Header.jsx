@@ -47,7 +47,6 @@ export default function Header() {
         ></div>
       </div>
       <h1 className="text-9xl font-bold">
-        {' '}
         {banngerStyles[bannerState].element}
       </h1>
     </header>
