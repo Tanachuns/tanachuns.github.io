@@ -41,6 +41,7 @@ export default function Header() {
         <div className="bg-black w-1 h-10 relative  bottom-10 left-[50px] shadow-md z-10 rounded-full"></div>
         <div
           id="door-wheel"
+          title="Click Me!"
           onClick={changeBanner}
           className={`rounded-full w-24 h-24 flex justify-center items-center  shadow-2xl border border-gray-500 ${banngerStyles[bannerState].rad}`}
         ></div>

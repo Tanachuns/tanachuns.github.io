@@ -26,18 +26,18 @@ nav a:hover {
 
 .rtbeige {
   transform: rotate(315deg);
-  transition: transform 1s linear;
+  transition: transform 0.5s linear;
 }
 .rtsea {
   transform: rotate(225deg);
-  transition: transform 1s linear;
+  transition: transform 0.5s linear;
 }
 .rtmango {
   transform: rotate(135deg);
-  transition: transform 1s linear;
+  transition: transform 0.5s linear;
 }
 .rtsage {
   transform: rotate(45deg);
 
-  transition: transform 1s linear;
+  transition: transform 0.5s linear;
 }
