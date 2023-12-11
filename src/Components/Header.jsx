@@ -37,7 +37,7 @@ export default function Header() {
     <header
       className={`flex items-center justify-center h-[500px] bg-${banngerStyles[bannerState].bg} shadow-2xl  overflow-hidden  rounded-md`}
     >
-      <div className="wheelbox top-[10%] right-[85%] absolute flex items-center justify-center ">
+      <div className="wheelbox top-[10%] right-[50%] sm:right-[85%] absolute flex items-center justify-center ">
         <div className="bg-black w-1 h-10 relative  bottom-10 left-[50px] shadow-md z-10 rounded-full"></div>
         <div
           id="door-wheel"

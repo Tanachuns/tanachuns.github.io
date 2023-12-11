@@ -17,7 +17,7 @@ export default function NavBar() {
           <Link to="/About">About</Link>
         </li> */}
       </ul>
-      <div className="flex">
+      <div className=" hidden sm:flex">
         <div
           className="mx-1 w-6 h-6 bg-sea border-white border-2 hover:border-black"
           title="sea: #9bb8cd"
