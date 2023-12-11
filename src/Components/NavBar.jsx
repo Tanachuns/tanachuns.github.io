@@ -5,9 +5,11 @@ export default function NavBar() {
   return (
     <nav className=" flex justify-between items-center bg-white text-black p-3 drop-shadow-lg ">
       <div className="flex items-center">
+        <p className="text-red-400">{'DEV'}</p>
         <Link to="/">
           <h1 className="text-2xl font-bold">TANANAK C.</h1>
         </Link>
+
         <small className="text-gray-400 text-xs mx-3 ">
           Solution Crafter & Problems Explorer.
         </small>
