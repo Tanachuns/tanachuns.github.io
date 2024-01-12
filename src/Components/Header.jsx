@@ -12,7 +12,7 @@ export default function Header() {
     {
       element: 'Test2',
       bg: 'sand',
-      rad: 'rtsand',
+      rad: 'rtsan',
     },
     {
       element: 'Test3',

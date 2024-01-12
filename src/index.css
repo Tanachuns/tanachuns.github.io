@@ -1,45 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap');
 
 .root,
 #root,
 #docs-root {
-  --c-sky: #9bb8cd;
-  --c-sand: #fff7d4;
-  --c-mango: #eec759;
-  --c-sage: #b1c381;
+  --c-base: #18191a;
+  --c-wash: #3e4042;
+  --c-warning: #faef5d;
+  --c-danger: #ff004d;
+
   font-family: 'Sarabun', sans-serif;
+  color: #fff;
 }
 
 nav a:hover {
-  color: var(--c-sage);
+  color: var(--c-warning);
 }
 
-#door-wheel {
-  background-image: conic-gradient(
-    var(--c-sand) 25%,
-    var(--c-sky) 25% 50%,
-    var(--c-mango) 50% 75%,
-    var(--c-sage) 75% 100%
-  );
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
-.rtsand {
-  transform: rotate(315deg);
-  transition: transform 0.5s linear;
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
-.rtsky {
-  transform: rotate(225deg);
-  transition: transform 0.5s linear;
-}
-.rtmango {
-  transform: rotate(135deg);
-  transition: transform 0.5s linear;
-}
-.rtsage {
-  transform: rotate(45deg);
 
-  transition: transform 0.5s linear;
+.perspective-wrapper {
+  perspective: 400px;
+  height: 120vh;
+}
+.starwar-text {
+  transform: rotateX(50deg);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80vw;
+
+  height: 100%;
+  overflow-y: scroll;
+  margin: 0 auto;
+  padding: 5em 2em;
+
+  font-size: 2.5em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  line-height: 150%;
 }
