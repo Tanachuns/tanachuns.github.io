@@ -2,6 +2,8 @@ import React from 'react'
 import Stats from './Stats'
 import Hero from './Hero'
 import About from './About'
+import Projects from './Projects'
+import Articles from './Articles'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Hero />
       <About />
       <Stats />
+      <Projects />
+      <Articles />
     </div>
   )
 }

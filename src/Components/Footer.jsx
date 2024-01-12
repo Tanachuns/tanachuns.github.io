@@ -13,9 +13,6 @@ export default function Footer() {
   return (
     <footer className="flex justify-between items-center bg-wash  text-white p-3">
       <p className="text-sm">Last Updated: {commitDate}</p>
-      <p>
-        <a href="https://storyset.com/work">Work illustrations by Storyset</a>
-      </p>
     </footer>
   )
 }

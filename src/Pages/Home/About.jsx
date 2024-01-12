@@ -1,7 +1,5 @@
 import React from 'react'
 
-import codingBro from '../../images/svg/Hand-computer.svg'
-
 export default function About() {
   return (
     <div className="perspective-wrapper overflow-hidden">
@@ -16,6 +14,8 @@ export default function About() {
           Jedi Knights, the guardians of peace and justice in the galaxy, to
           settle the conflict....
         </p>
+        <br />
+        <br />
         <br />
         <br />
         <br />
