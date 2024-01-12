@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import timeLog from '../Services/LogService'
 
 export default function Footer() {
   const [commitDate, setCommitDate] = useState('')
@@ -7,7 +8,16 @@ export default function Footer() {
     axios
       .get('https://api.github.com/repos/tanachuns/tanachuns.github.io/commits')
       .then((res) => {
-        setCommitDate(new Date(res.data[0].commit.committer.date).toString())
+        const commitDate = new Date(
+          res.data[0].commit.committer.date
+        ).toString()
+        timeLog('getLastCommit', commitDate)
+        setCommitDate(commitDate)
+      })
+      .catch((ex) => {
+        {
+          timeLog('getLastCommit exception', ex)
+        }
       })
   }, [])
   return (
