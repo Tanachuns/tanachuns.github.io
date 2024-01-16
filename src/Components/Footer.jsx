@@ -6,7 +6,9 @@ export default function Footer() {
   const [commitDate, setCommitDate] = useState('')
   useEffect(() => {
     axios
-      .get('https://api.github.com/repos/tanachuns/tanachuns.github.io/commits')
+      .get(
+        'https://api.github.com/repos/tanachuns/tanachuns.gisdsub.io/commits'
+      )
       .then((res) => {
         const commitDate = new Date(
           res.data[0].commit.committer.date

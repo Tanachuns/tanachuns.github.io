@@ -10,6 +10,14 @@ export default function Hero() {
         <p>
           <b className="text-warning">Fill</b> your dream.
         </p>
+        <p>
+          <a
+            className=" text-lg hover:text-danger "
+            href="https://tanathemonkseal-blog.vercel.app/"
+          >
+            > Blogs
+          </a>
+        </p>
       </div>
     </div>
   )

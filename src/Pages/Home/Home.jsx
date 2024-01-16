@@ -10,10 +10,11 @@ export default function Home() {
     <div className="grid gap-4">
       {/* <Header /> */}
       <Hero />
-      <About />
+
+      {/* <About />
       <Stats />
       <Projects />
-      <Articles />
+      <Articles /> */}
     </div>
   )
 }
